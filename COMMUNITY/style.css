@@ -50,18 +50,26 @@ nav .nv3{
 }
 
 nav .nv3 button{
-    height: 5vh;
-    width: 5vw;
-    border-color: chartreuse;
-    background-color: rgb(165, 192, 234);
+    background-color: rgb(241, 241, 97);
+    border-color: #000!important;
+    border: 1px solid;
+    border-radius: 8px!important;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%), 0 4px 4px rgb(0 0 0 / 25%);
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    margin: 6px 6px 6px 0;
+    padding: 0.5rem 2rem!important;
 }
 
 nav .nv3 button:hover{
-    background-color: rgb(121, 230, 137);
+    box-shadow: none;
+    font-style: light;
+    
 }
 
 nav .nv3 button a{
-    color: aliceblue;
+    font-style: normal;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
