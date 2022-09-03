@@ -45,11 +45,11 @@ nav .nv2{
 }
 
 nav #banner{
-    width: 95vw;
-    height: 90vh;
+    width: 100vw;
+    height: 85vh;
 }
 
 #banner img{
-    height: 90vh;
-    width: 95vw;
+    height: 70vh;
+    width: 100vw;
 }
