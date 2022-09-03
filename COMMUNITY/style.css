@@ -59,6 +59,10 @@ nav .nv3 button{
     font-size: 1.5rem;
     margin: 6px 6px 6px 0;
     padding: 0.5rem 2rem!important;
+    animation: aa 2s  1 ease-out backwards;
+}
+@media screen {
+
 }
 
 nav .nv3 button:hover{
