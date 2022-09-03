@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(212, 200, 200);
+    color: rgb(0, 0, 0);
+}
+
+nav ul{
+    height: 9vh;          /*  height must be same as header height.. then align-items: center will work */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0vh 2.5vw;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav .nv1{
+    background-color: rgb(255, 255, 255);
+    width: 35vw;
+    margin: 2px;
+    padding: 2px;
+}
+
+nav .nv2{
+    margin: 2px;
+    padding: 2px;
+    width: 35vw;
+}
+
+nav .nv3{
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    width: 27vw;
+}
+
+nav .nv3 button{
+    height: 5vh;
+    width: 5vw;
+    border-color: chartreuse;
+    background-color: rgb(165, 192, 234);
+}
+
+nav .nv3 button:hover{
+    background-color: rgb(121, 230, 137);
+}
+
+nav .nv3 button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
