@@ -44,7 +44,12 @@ nav .nv2{
     width: 52vw;
 }
 
+nav #banner{
+    width: 95vw;
+    height: 90vh;
+}
+
 #banner img{
     height: 90vh;
-    width: 100vw;
+    width: 95vw;
 }
