@@ -9,12 +9,12 @@ nav{
     justify-content: space-between;
     height: 10vh;
     width: 100%;
-    background-color:#A5DEF1;
+    background-image: linear-gradient(to left,#E0C4FD,#8FC6FD);
     color: rgb(0, 0, 0);
 }
 
 nav ul{
-    height: 9vh;          /*  height must be same as header height.. then align-items: center will work */
+    height: 10vh;          /*  height must be same as header height.. then align-items: center will work */
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -32,7 +32,6 @@ nav ul li a{
 }
 
 nav .nv1{
-    background-color: rgb(255, 255, 255);
     width: 41vw;
     margin: 2px;
     padding: 2px;
@@ -43,4 +42,9 @@ nav .nv2{
     margin: 2px;
     padding: 2px;
     width: 52vw;
+}
+
+#banner img{
+    height: 90vh;
+    width: 100vw;
 }
