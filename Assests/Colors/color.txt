@@ -1,0 +1,4 @@
+main orange color = #e37b58
+second main color = #fdf7eb
+white color = #ffffff
+supportive color = #f8d1b4
