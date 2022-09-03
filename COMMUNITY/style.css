@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Vast+Shadow&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 nav{
     display: flex;
+    justify-content: space-between;
     height: 10vh;
     width: 100%;
-    background-color: rgb(212, 200, 200);
+    background-color:#A5DEF1;
     color: rgb(0, 0, 0);
 }
 
@@ -24,57 +27,20 @@ nav ul li{
 
 nav ul li a{
     color: rgb(0, 0, 0);
+    font-family: 'Vast Shadow', cursive;
     text-decoration: none;
 }
 
 nav .nv1{
     background-color: rgb(255, 255, 255);
-    width: 35vw;
+    width: 41vw;
     margin: 2px;
     padding: 2px;
 }
 
 nav .nv2{
+
     margin: 2px;
     padding: 2px;
-    width: 35vw;
+    width: 52vw;
 }
-
-nav .nv3{
-    display: flex;
-    margin: 2px;
-    padding: 2px;
-    justify-content: center;
-    align-items: center;
-    width: 27vw;
-}
-
-nav .nv3 button{
-    background-color: rgb(241, 241, 97);
-    border-color: #000!important;
-    border: 1px solid;
-    border-radius: 8px!important;
-    box-shadow: 0 4px 4px rgb(0 0 0 / 25%), 0 4px 4px rgb(0 0 0 / 25%);
-    box-sizing: border-box;
-    font-size: 1.5rem;
-    margin: 6px 6px 6px 0;
-    padding: 0.5rem 2rem!important;
-    animation: aa 2s  1 ease-out backwards;
-}
-@media screen {
-
-}
-
-nav .nv3 button:hover{
-    box-shadow: none;
-    font-style: light;
-    
-}
-
-nav .nv3 button a{
-    font-style: normal;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-
