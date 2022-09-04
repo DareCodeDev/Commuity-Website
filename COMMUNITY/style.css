@@ -109,9 +109,11 @@ nav #banner{
     height: 85vh;
 }
 
-#banner img{
-    height: 90vh;
-    width: 100vw;
+#banner img {
+    height: 68vh;
+    width: 94vw;
+    padding: 0px 45px 0px 47px;
+    background-color: #15192b;
 }
 .btn{
     border-radius: 2px solid var(--second);
