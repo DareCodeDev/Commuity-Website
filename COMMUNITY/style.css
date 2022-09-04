@@ -6,19 +6,18 @@
     padding: 0;
 }
 nav{
-    border-radius: 50px 0px 50px 0px;
     display: flex;
     justify-content: space-between;
     height: 10vh;
     width: 100%;
-    background-image: linear-gradient(to left,#e37b58,#f8d1b4);
+    background-color: #fdf7eb;
     color: rgb(0, 0, 0);
 }
 
 nav ul{
     height: 10vh;          /*  height must be same as header height.. then align-items: center will work */
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
 }
 
@@ -39,12 +38,12 @@ nav .nv1 .logo img{
 }
 
 nav .nv1{
+    background-color: #e37b58;
+    border-radius: 0px 0px 0px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30vw;
-    margin: 2px;
-    padding: 2px;
+    width: 40vw;
 }
 nav .nv1 .name{
     display: flex;
@@ -59,10 +58,9 @@ nav .nv1 .name h3{
 }
 
 nav .nv2{
-
-    margin: 2px;
-    padding: 2px;
-    width: 52vw;
+    border-radius: 0px 0px 50px 0px;
+    background-color: #e37b58;
+    width: 89vw;
 }
 
 nav #banner{
