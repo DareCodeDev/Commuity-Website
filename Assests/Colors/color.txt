@@ -1,4 +1,6 @@
-main orange color = #e37b58
-second main color = #fdf7eb
+main orange color = #254252
+second main color = #171c2d
+third main color = #e37239
+fourth main color = #f9982f
+fifth main color = #eab56f
 white color = #ffffff
-supportive color = #f8d1b4
