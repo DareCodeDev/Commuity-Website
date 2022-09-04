@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Pacifico&family=Quicksand:wght@300;500&family=Vast+Shadow&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 nav{
+    border-radius: 50px 0px 50px 0px;
     display: flex;
     justify-content: space-between;
     height: 10vh;
     width: 100%;
-    background-image: linear-gradient(to left,#E0C4FD,#8FC6FD);
+    background-image: linear-gradient(to left,#e37b58,#f8d1b4);
     color: rgb(0, 0, 0);
 }
 
@@ -27,14 +29,33 @@ nav ul li{
 
 nav ul li a{
     color: rgb(0, 0, 0);
-    font-family: 'Vast Shadow', cursive;
+    font-family: 'Quicksand', sans-serif;
     text-decoration: none;
+}
+nav .nv1 .logo img{
+    padding: 2px 2px;
+    width: 9vw;
+    height: 8vh;
 }
 
 nav .nv1{
-    width: 41vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
     margin: 2px;
     padding: 2px;
+}
+nav .nv1 .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 2px;
+}
+
+nav .nv1 .name h3{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
 }
 
 nav .nv2{
