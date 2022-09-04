@@ -24,6 +24,14 @@ nav{
     color: var(--sixth);
 }
 
+nav .nv1 .name h3{
+    color: white;
+}
+
+nav .nv1 .name h3:hover{
+    color: var(--third);
+}
+
 nav ul{
     height: 10vh;          /*  height must be same as header height.. then align-items: center will work */
     display: flex;
@@ -102,7 +110,7 @@ nav #banner{
 }
 
 #banner img{
-    height: 70vh;
+    height: 90vh;
     width: 100vw;
 }
 .btn{
