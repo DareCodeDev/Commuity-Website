@@ -45,19 +45,19 @@ nav ul li{
     padding: 0vh 2.5vw;
 }
 
-nav ul li a{
+nav ul li .nan{
     color: var(--sixth);
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
 }
 
-a{
+.nan{
     display: inline-block;
     padding-bottom: 0.25rem;
     position: relative;
 }
 
-a::before{
+.nan::before{
     content: "";
     position: absolute;
     left: 0;
@@ -68,7 +68,7 @@ a::before{
     transition: width 0.5s ease;
 }
 
-a:hover::before{
+.nan:hover::before{
     width: 100%;
 }
 
@@ -104,16 +104,30 @@ nav .nv2{
     width: 89vw;
 }
 
-nav #banner{
+.container{
+    background-color: var(--second);
     width: 100vw;
-    height: 85vh;
+    height: 90vh;
+}
+.container .learn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
 }
 
+<<<<<<< HEAD
 #banner img {
     height: 68vh;
     width: 94vw;
     padding: 0px 45px 0px 47px;
     background-color: #15192b;
+=======
+.container img{
+    height: 78vh;
+    width: 100vw;
+>>>>>>> b2863c6479f0933fd56e0c92c10427445f2e8336
 }
 .btn{
     border-radius: 2px solid var(--second);
