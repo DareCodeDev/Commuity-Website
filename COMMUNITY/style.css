@@ -6,14 +6,11 @@
     padding: 0;
 }
 nav{
-    border-radius: 0px 0px 50px 50px;
-    border-color: #e37b58;
     display: flex;
     justify-content: space-between;
     height: 10vh;
     width: 100%;
-    background-color: #fdf7eb;
-    background-image: linear-gradient(to left,#e37b58,#e37b58);
+    background-color: #171c2d;
     color: rgb(0, 0, 0);
 }
 
@@ -41,7 +38,7 @@ nav .nv1 .logo img{
 }
 
 nav .nv1{
-    background-color: #e37b58;
+    background-color: #254252;
     border-radius: 0px 0px 0px 50px;
     display: flex;
     justify-content: space-evenly;
@@ -62,7 +59,7 @@ nav .nv1 .name h3{
 
 nav .nv2{
     border-radius: 0px 0px 50px 0px;
-    background-color: #e37b58;
+    background-color: #254252;
     width: 89vw;
 }
 
