@@ -6,11 +6,20 @@
     padding: 0;
 }
 nav{
+<<<<<<< HEAD
+=======
+    border-radius: 0px 0px 50px 50px;
+    border-color: #e37b58;
+>>>>>>> b7382e461ac30b23c99111891f7ee711ba4ba198
     display: flex;
     justify-content: space-between;
     height: 10vh;
     width: 100%;
+<<<<<<< HEAD
     background-color: #fdf7eb;
+=======
+    background-image: linear-gradient(to left,#e37b58,#e37b58);
+>>>>>>> b7382e461ac30b23c99111891f7ee711ba4ba198
     color: rgb(0, 0, 0);
 }
 
