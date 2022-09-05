@@ -110,7 +110,7 @@ nav .nv2 {
 .container {
     display: flex;
     background-color: var(--seven);
-    width: 90vw;
+    width: 91vw;
     height: 90vh;
     padding: 0vh 4vw;
 }
@@ -124,6 +124,13 @@ nav .nv2 {
     height: 90vh;
     width: 50vw;
 
+}
+.container .con1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container .con1 .hdl h3{
+    font-size: 7rem;
 }
 
 .container .con2{
