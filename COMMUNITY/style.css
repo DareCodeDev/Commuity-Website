@@ -15,7 +15,10 @@
     --sixth: #ffffff;
     --seven: #46C3DB;
 }
-
+body {
+    display: flex;
+    flex-direction: column;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -143,4 +146,23 @@ nav .nv2 {
     width: 46vw;
     height: 95vh;
     padding: 25px;
+}
+.container2{
+    display: flex;
+    height: 100vh;
+    width: 99vw;
+    background-color:var(--seven);
+}
+
+.container2 .con3{
+    width: 99vw;
+    height: 100vh;
+    background-color: #254252;
+    border-radius: 50px 50px 50px 50px;
+}
+.container3{
+    display: flex;
+    height: 100vh;
+    width: 99vw;
+    background-color:var(--seven);
 }
