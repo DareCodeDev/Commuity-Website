@@ -115,6 +115,7 @@ nav .nv2 {
     padding: 0vh 4vw;
 }
 
+<<<<<<< HEAD
 .container .con1 {
     background-color: var(--seven);
     display: flex;
@@ -124,6 +125,19 @@ nav .nv2 {
     height: 90vh;
     width: 50vw;
     font-family: 'Quicksand', sans-serif;
+=======
+<<<<<<< HEAD
+#banner img {
+    height: 68vh;
+    width: 94vw;
+    padding: 0px 45px 0px 47px;
+    background-color: #15192b;
+=======
+.container img{
+    height: 78vh;
+    width: 100vw;
+>>>>>>> b2863c6479f0933fd56e0c92c10427445f2e8336
+>>>>>>> 77baf81b5c549bf16db527dee284d1b01283fae4
 }
 
 .container .con2{
