@@ -56,7 +56,6 @@ nav ul li .nan {
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
 }
-
 .nan {
     display: inline-block;
     padding-bottom: 0.25rem;
@@ -110,60 +109,16 @@ nav .nv2 {
     background-color: var(--main);
     width: 89vw; 
 }
-
-.container {
-    display: flex;
-    background-color: var(--seven);
-    width: 91vw;
-    height: 90vh;
-    padding: 0vh 4vw;
+.about-con1{
+    background-color: #46C3DB;
+    height: 100vh;
+    width: 99vw;
 }
-
-.container .con1 {
-    background-color: var(--seven);
+.con1-h{
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    height: 90vh;
-    width: 50vw;
-
-}
-.container .con1{
+    align-items: center;
+    font-size: 39px;
     font-family: 'Quicksand', sans-serif;
-}
-
-.container .con1 .hdl h3{
-    font-size: 7rem;
-}
-
-.container .con2{
-    background-color: var(--seven);
-    height: 90vh;
-    width: 50vw;
-}
-
-.container .con2 .ill img {
-    width: 46vw;
-    height: 95vh;
-    padding: 25px;
-}
-.container2{
-    display: flex;
-    height: 100vh;
-    width: 99vw;
-    background-color:var(--seven);
-}
-
-.container2 .con3{
-    width: 99vw;
-    height: 100vh;
-    background-color: #254252;
-    border-radius: 50px 50px 50px 50px;
-}
-.container3{
-    display: flex;
-    height: 100vh;
-    width: 99vw;
-    background-color:var(--seven);
+    padding: 28px 0px 0px 0px;
 }
