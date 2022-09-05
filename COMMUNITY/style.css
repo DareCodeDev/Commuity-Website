@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Vast+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Pacifico&family=Quicksand:wght@300;500&family=Vast+Shadow&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -12,52 +12,54 @@
     --third: #e37239;
     --forth: #f9982f;
     --fifth: #eab56f;
-    --sixth: #ffffff
+    --sixth: #ffffff;
+    --seven: #46C3DB;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     height: 10vh;
     width: 100%;
-    background-color:var(--second);
-    color: var(--sixth);
+    background-color: var(--seven);
+    color: var(--second);
 }
 
-nav .nv1 .name h3{
-    color: white;
+nav .nv1 .name h3 {
+    color: var(--seven);
 }
 
-nav .nv1 .name h3:hover{
+nav .nv1 .name h3:hover {
     color: var(--third);
 }
 
-nav ul{
-    height: 10vh;          /*  height must be same as header height.. then align-items: center will work */
+nav ul {
+    height: 10vh;
+    /*  height must be same as header height.. then align-items: center will work */
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
 
-nav ul li{
+nav ul li {
     list-style: none;
     padding: 0vh 2.5vw;
 }
 
-nav ul li .nan{
-    color: var(--sixth);
+nav ul li .nan {
+    color: white;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
 }
 
-.nan{
+.nan {
     display: inline-block;
     padding-bottom: 0.25rem;
     position: relative;
 }
 
-.nan::before{
+.nan::before {
     content: "";
     position: absolute;
     left: 0;
@@ -68,17 +70,17 @@ nav ul li .nan{
     transition: width 0.5s ease;
 }
 
-.nan:hover::before{
+.nan:hover::before {
     width: 100%;
 }
 
-nav .nv1 .logo img{
+nav .nv1 .logo img {
     padding: 2px 2px;
     width: 9vw;
     height: 8vh;
 }
 
-nav .nv1{
+nav .nv1 {
     background-color: var(--main);
     border-radius: 0px 0px 0px 50px;
     display: flex;
@@ -86,41 +88,52 @@ nav .nv1{
     align-items: center;
     width: 40vw;
 }
-nav .nv1 .name{
+
+nav .nv1 .name {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2px 2px;
 }
 
-nav .nv1 .name h3{
+nav .nv1 .name h3 {
     display: flex;
     font-family: 'Quicksand', sans-serif;
 }
 
-nav .nv2{
+nav .nv2 {
     border-radius: 0px 0px 50px 0px;
     background-color: var(--main);
-    width: 89vw;
+    width: 89vw; 
 }
 
-.container{
-    background-color: var(--second);
-    width: 100vw;
-    height: 90vh;
-}
-.container .learn{
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    width: 100vw;
+    background-color: var(--seven);
+    width: 91vw;
+    height: 90vh;
+    padding: 0vh 4vw;
 }
 
-.container img{
-    height: 78vh;
-    width: 100vw;
+.container .con1 {
+    background-color: var(--seven);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 50vw;
+    font-family: 'Quicksand', sans-serif;
 }
-.btn{
-    border-radius: 2px solid var(--second);
+
+.container .con2{
+    background-color: var(--seven);
+    height: 90vh;
+    width: 50vw;
+}
+
+.container .con2 .ill img {
+    width: 46vw;
+    height: 95vh;
+    padding: 25px;
 }
