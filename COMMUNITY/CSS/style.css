@@ -21,7 +21,6 @@ body {
     flex-direction: column;
 }
 nav {
-    
     display: flex;
     justify-content: space-between;
     height: 10vh;
@@ -32,10 +31,6 @@ nav {
 
 nav .nv1 .name h3 {
     color: var(--seven);
-}
-
-nav .nv1 .name h3:hover {
-    color: var(--third);
 }
 
 nav ul {
@@ -143,11 +138,6 @@ nav .nv2 {
     width: 50vw;
 }
 
-.container .con2 .ill img {
-    width: 46vw;
-    height: 95vh;
-    padding: 25px;
-}
 .container2{
     display: flex;
     height: 100vh;
@@ -155,7 +145,7 @@ nav .nv2 {
     background-color:var(--seven);
 }
 
-.container2 .con3{
+.container2 #con3{
     width: 99vw;
     height: 100vh;
     background-color: #254252;
