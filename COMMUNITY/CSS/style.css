@@ -96,7 +96,6 @@ nav .nv1 .name h3 {
 
 nav ul {
     height: 10vh;
-    /*  height must be same as header height.. then align-items: center will work */
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -209,11 +208,8 @@ nav .nv2 {
 .container2 {
     display: flex;
     height: 100vh;
-<<<<<<< HEAD
     width: 100%;
-=======
     width: 99vw;
->>>>>>> c248756e86e1190767f36f8cd52133f1e74a2a57
     background-color: var(--main);
 }
 
@@ -382,7 +378,7 @@ body {
 
     nav ul li {
         list-style: none;
-        /* padding: 0vh 2.5vw; */
+        
         font-size: 25px;
         padding: 4px 0px 0px 0px;
     }
