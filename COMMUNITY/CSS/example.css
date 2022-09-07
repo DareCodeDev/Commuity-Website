@@ -1,36 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-:root {
-    --main: #254252;
-    --second: #171c2d;
-    --third: #e37239;
-    --forth: #f9982f;
-    --fifth: #eab56f;
-    --sixth: #ffffff;
-    --seven: #46C3DB;
-}
-
 html {
     height: 100%;
 }
 body {
-  background-color: var(--seven);
-  position: fixed;
+  background-color: #bcdee7;
   padding: 0px;
   margin: 0px;
   width: 100%;
   height: 100%;
   font: normal 14px/1.618em "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
-  display: flex;
-  flex-direction: column;
 }
 
-/* body:before {
+body:before {
     content: "";
     height: 0px;
     padding: 0px;
-    border: 110em solid #254252;
+    border: 110em solid #313440;
   position: absolute;
   left: 50%;
   top: 100%;
@@ -42,97 +29,7 @@ body {
   transform: translate(-50%, -50%);
     -webkit-animation: puff_portrait 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
     animation: puff_portrait 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
-}  */
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    height: 10vh;
-    width: 100%;
-    background-color: var(--seven);
-    color: var(--second);
-}
-
-nav .nv1 .name h3 {
-    color: var(--seven);
-}
-
-nav .nv1 .name h3:hover {
-    color: var(--third);
-}
-
-nav ul {
-    height: 10vh;
-    /*  height must be same as header height.. then align-items: center will work */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-nav ul li {
-    list-style: none;
-    padding: 0vh 2.5vw;
-}
-
-nav ul li .nan {
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
-}
-.nan {
-    display: inline-block;
-    padding-bottom: 0.25rem;
-    position: relative;
-}
-
-.nan::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--third);
-    transition: width 0.5s ease;
-}
-
-.nan:hover::before {
-    width: 100%;
-}
-
-nav .nv1 .logo img {
-    padding: 2px 2px;
-    width: 9vw;
-    height: 8vh;
-}
-
-nav .nv1 {
-    background-color: var(--main);
-    border-radius: 0px 0px 0px 50px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 40vw;
-}
-
-nav .nv1 .name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2px 2px;
-}
-
-nav .nv1 .name h3 {
-    display: flex;
-    font-family: 'Quicksand', sans-serif;
-}
-
-nav .nv2 {
-    border-radius: 0px 0px 50px 0px;
-    background-color: var(--main);
-    width: 89vw; 
-}
+} 
 h1, h2 {
     font-weight: 400;
     margin: 0px 0px 5px 0px;
