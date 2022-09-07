@@ -8,13 +8,13 @@
 }
 
 :root {
-    --main: #254252;
+    --main: #060c08;
     --second: #171c2d;
     --third: #e37239;
     --forth: #f9982f;
     --fifth: #eab56f;
     --sixth: #ffffff;
-    --seven: #46C3DB;
+    --seven: #cd8a39;
 }
 
 /* Button learn more */
@@ -133,7 +133,7 @@ nav ul li .nan {
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: var(--third);
+    background-color: var(--seven);
     transition: width 0.5s ease;
 }
 
@@ -186,11 +186,11 @@ nav .nv2 {
     display: flex;
     align-items: center;
     border-radius: 0px 0px 0px 50px;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     font-family: 'Quicksand', sans-serif;
     height: 90vh;
-    width: 100%;
+    width: 70%;
 }
 
 .container .con1 .learn a {
@@ -205,7 +205,7 @@ nav .nv2 {
     background-color: var(--seven);
     border-radius: 0px 0px 50px 0px;
     height: 90vh;
-    width: 50vw;
+    width: 30%;
 }
 
 .pgf {
@@ -223,7 +223,7 @@ nav .nv2 {
 .container2 #con3 {
     width: 99vw;
     height: 100vh;
-    background-color: #254252;
+    background-color: var(--main);
     border-radius: 0px 0px 50px 50px;
 }
 
@@ -299,14 +299,8 @@ body {
     background-color: #555;
 }
 
-#icon {
-    width: 5vw;
-    height: 8vh
-}
 
-.mrindia {
-    display: none;
-}
+
 
 
 @media only screen and (max-width:800px) {
@@ -314,7 +308,7 @@ body {
 
     nav {
         display: block;
-        height: 318px;
+        height: 405px;
         width: 100%;
         background-color: var(--seven);
         color: var(--second);
@@ -322,17 +316,35 @@ body {
 
     }
 
-    .mraa {
+    .chobad{
+        height: 74px;
+    }
+
+    .nav .nv1 .name{
         display: none;
     }
-
-    .mrindia {
-        display: block;
+    nav .nv1 .logo img{
+        width: 130px;
     }
+    
+.burger {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top: 3%;
 
-    .chobad {
-        height: 8%;
+}
 
+.line {
+    width: 33px;
+    background-color: rgb(255, 255, 255);
+    height: 4px;
+    margin: 3px 3px;
+}
+    .mrindia{
+        display: none;
     }
 
 
@@ -348,7 +360,7 @@ body {
     nav .nv2 {
         background-color: var(--main);
         width: 100%;
-        height: 75%;
+        height: 100%;
         border-radius: 0;
     }
 
@@ -371,112 +383,8 @@ body {
         font-size: 4rem;
     }
 
+    
 
-
-
-    label .menu {
-        position: absolute;
-        right: 95px;
-        top: -108px;
-        z-index: 100;
-        height: 148px;
-        background: #254252;
-        border-radius: 50% 50% 50% 50%;
-        -webkit-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
-        box-shadow: 0 0 0 0 #254252, 0 0 0 0 #254252;
-        cursor: pointer;
-    }
-
-
-
-    label .hamburger {
-        position: absolute;
-        top: 135px;
-        left: 50px;
-        width: 30px;
-        height: 2px;
-        background: #69D2e7;
-        display: block;
-        -webkit-transform-origin: center;
-        transform-origin: center;
-        -webkit-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
-    }
-
-    label .hamburger:after,
-    label .hamburger:before {
-        -webkit-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
-        content: "";
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 100%;
-        background: #69d2e7;
-    }
-
-    label .hamburger:before {
-        top: -10px;
-    }
-
-    label .hamburger:after {
-        bottom: -10px;
-    }
-
-    label input {
-        display: none;
-    }
-
-    label input:checked+.menu {
-        box-shadow: 0 0 0 100vw #254252, 0 0 0 100vh #254252;
-        border-radius: 0;
-
-    }
-
-    label input:checked+.menu .hamburger {
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-
-    }
-
-    label input:checked+.menu .hamburger:after {
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-        bottom: 0;
-
-    }
-
-    label input:checked+.menu .hamburger:before {
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-        top: 0;
-
-    }
-
-    label input:checked+.menu+ul {
-        opacity: 1;
-    }
-
-    label ul {
-        z-index: 200;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        -webkit-transition: .25s 0s ease-in-out;
-        transition: .25s 0s ease-in-out;
-    }
-
-    label a {
-        margin-bottom: 1em;
-        display: block;
-        color: #f38630;
-        text-decoration: none;
-
-    }
 
 
     nav ul li {
@@ -486,10 +394,10 @@ body {
         padding: 4px 0px 0px 0px;
     }
 
-    #icon {
+    /* #icon {
         width: 5vw;
         height: 8vh
-    }
+    } */
 
     .container {
         display: flex;
