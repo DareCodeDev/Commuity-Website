@@ -418,4 +418,22 @@ margin-bottom: 5px;
 .footer-distributed .footer-center i{
     margin-left: 0;
 }
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15%;
+
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+    color: white;
+}
 }
