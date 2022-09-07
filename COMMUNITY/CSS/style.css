@@ -23,10 +23,6 @@ body {
 }
 
 nav {
-<<<<<<< HEAD
-=======
-
->>>>>>> 65348d4bd9edc509df4a83cbb570cbba25b6201a
     display: flex;
     justify-content: space-between;
     height: 10vh;
@@ -145,28 +141,20 @@ nav .nv2 {
     width: 50vw;
 }
 
-<<<<<<< HEAD
-.container2{
-=======
-.container .con2 .ill img {
+.container2 {
     width: 46vw;
     height: 95vh;
     padding: 25px;
 }
 
 .container2 {
->>>>>>> 65348d4bd9edc509df4a83cbb570cbba25b6201a
     display: flex;
     height: 100vh;
     width: 99vw;
     background-color: var(--seven);
 }
 
-<<<<<<< HEAD
-.container2 #con3{
-=======
-.container2 .con3 {
->>>>>>> 65348d4bd9edc509df4a83cbb570cbba25b6201a
+.container2 #con3 {
     width: 99vw;
     height: 100vh;
     background-color: #254252;
