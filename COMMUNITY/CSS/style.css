@@ -376,10 +376,9 @@ body {
 
     label .menu {
         position: absolute;
-        right: -55px;
+        right: 95px;
         top: -108px;
         z-index: 100;
-        width: 151px;
         height: 148px;
         background: #254252;
         border-radius: 50% 50% 50% 50%;
